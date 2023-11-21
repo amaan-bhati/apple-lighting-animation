@@ -39,11 +39,5 @@ const preloadImages = () => {
 }
 
 
-const preloadImages = () => {
-    for (let i = 1; i < frameCount; i++) {
-        const img = new Image();
-        img.src = currentFrame(i);
-    }
-}
 
 preloadImages();
