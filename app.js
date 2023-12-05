@@ -37,7 +37,4 @@ const preloadImages = () => {
         img.src = currentFrame(i);
     }
 }
-
-
-
 preloadImages();
